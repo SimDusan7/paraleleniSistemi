@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kuca\\Desktop\\PRS\\PRS exercise 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29ADEF92-7FA5-4836-AC32-BBD1710333F7}|PRS exercise 1\\PRS exercise 1.vcxproj|C:\\Users\\Kuca\\Desktop\\PRS\\PRS exercise 1\\PRS exercise 1\\PRS exercise 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29ADEF92-7FA5-4836-AC32-BBD1710333F7}|PRS exercise 1\\PRS exercise 1.vcxproj|solutionrelative:PRS exercise 1\\PRS exercise 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PRS exercise 1.cpp",
+              "DocumentMoniker": "C:\\Users\\Kuca\\Desktop\\PRS\\PRS exercise 1\\PRS exercise 1\\PRS exercise 1.cpp",
+              "RelativeDocumentMoniker": "PRS exercise 1\\PRS exercise 1.cpp",
+              "ToolTip": "C:\\Users\\Kuca\\Desktop\\PRS\\PRS exercise 1\\PRS exercise 1\\PRS exercise 1.cpp",
+              "RelativeToolTip": "PRS exercise 1\\PRS exercise 1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-13T21:15:07.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
