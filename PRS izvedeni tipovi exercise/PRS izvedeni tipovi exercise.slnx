@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PRS izvedeni tipovi exercise/PRS izvedeni tipovi exercise.vcxproj" />
+</Solution>
