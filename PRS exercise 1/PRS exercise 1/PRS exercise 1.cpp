@@ -1,28 +1,26 @@
 #include<mpi.h>
 #include<stdio.h>
 
-int main(int argc, char **argv)
-{
-    int rank, value, size;
-    MPI_Status status;
-    MPI_Init(&argc, &argv);
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
-
-    do {
-        if (rank == 0) {
-            scanf_s("%d", &value);
-            MPI_Send(&value, 1, MPI_INT, rank + 1, 0, MPI_COMM_WORLD);
-        }
-        else {
-            MPI_Recv(&value, 1, MPI_INT, rank - 1, 0, MPI_COMM_WORLD, &status);
-            if (rank < size - 1) {
-                MPI_Send(&value, 1, MPI_INT, rank + 1, 0, MPI_COMM_WORLD);
-            }
-            printf("Process %d got %d\n", rank, value);
-        }
-    } while (value >= 0);
-    MPI_Finalize();
-    return 0;
+void main(int argc, char* argv[]) {
+	struct {
+		double value;
+		int rank;
+	}in[30], out[30];
+	int rank, i, size;
+	MPI_Init(&argc, &argv);
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &size);
+	for (i = 0; i < 30; i++) {
+		in[i].value = double(rank + i);
+		in[i].rank = rank;
+	}
+	MPI_Reduce(in, out, 30, MPI_DOUBLE_INT, MPI_MAXLOC, 0, MPI_COMM_WORLD);
+	if (rank == 0) {
+		for (i = 0; i < 30; i++) {
+			printf("Out value: %lf\n",out[i].value);
+			printf("Out rank: %d", out[i].rank);
+		}
+	}
+	MPI_Finalize();
 
 }
