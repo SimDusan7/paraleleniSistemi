@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kuca\\Desktop\\PRS\\paraleleniSistemi\\PRS komunikatori\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22C14EFF-C3E2-400F-9CE8-05D01EA7EF13}|PRS komunikatori\\PRS komunikatori.vcxproj|C:\\Users\\Kuca\\Desktop\\PRS\\paraleleniSistemi\\PRS komunikatori\\PRS komunikatori\\PRS komunikatori.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22C14EFF-C3E2-400F-9CE8-05D01EA7EF13}|PRS komunikatori\\PRS komunikatori.vcxproj|solutionrelative:PRS komunikatori\\PRS komunikatori.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PRS komunikatori.cpp",
+              "DocumentMoniker": "C:\\Users\\Kuca\\Desktop\\PRS\\paraleleniSistemi\\PRS komunikatori\\PRS komunikatori\\PRS komunikatori.cpp",
+              "RelativeDocumentMoniker": "PRS komunikatori\\PRS komunikatori.cpp",
+              "ToolTip": "C:\\Users\\Kuca\\Desktop\\PRS\\paraleleniSistemi\\PRS komunikatori\\PRS komunikatori\\PRS komunikatori.cpp",
+              "RelativeToolTip": "PRS komunikatori\\PRS komunikatori.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwIEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-16T18:30:03.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
